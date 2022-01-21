@@ -6,11 +6,14 @@
 -->
 <html>
 	<head>
-		<title>Previous Stats</title>
+		<title>Compare Teams</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<!--D3 cdn-->
+		<script src="https://d3js.org/d3.v5.min.js"></script>
+		<!-- CSS -->
+		<link rel="stylesheet" href="../static/css/main.css" />
+		<noscript><link rel="stylesheet" href="../static/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
 
@@ -40,7 +43,7 @@
 
 						<!-- Post -->
 							<section class="post">
-								<form method="post" action="#">
+								<!-- <form method="post" action="#">
 									<div class="row gtr-uniform">
 										<div class="col-6 col-12-xsmall">
 											<select name="team1" id="team1" onchange="optionChanged(this.value)">
@@ -88,8 +91,8 @@
 												<option value="Western Bulldogs">Western Bulldogs</option>
 											</select>
 										</div>
-										<!-- Break -->
-										<div class="col-4 col-12-xsmall"></div>
+										Break -->
+										<!-- <div class="col-4 col-12-xsmall"></div>
 										<div class="col-4 col-12-xsmall">
 											<ul class="actions">
 												<li><input type="submit" value="Compare" class="primary" /></li>
@@ -98,62 +101,60 @@
 										</div>
 										<div class="col-4 col-12-xsmall"></div>
 									</div>
-								</form>
+								</form> -->
 								<div class="image main"><img src="images/pic01.jpg" alt="" /></div>
-								<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur sapien risus, commodo eget turpis at, elementum convallis enim turpis, lorem ipsum dolor sit amet nullam.</p>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus. Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum.</p>
+
+								<!-- Visualisations -->
+								<div class='tableauPlaceholder' id='viz1642749147982' style='position: relative'>
+									<object class='tableauViz'  style='display:none;'>
+										<param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+										 <param name='embed_code_version' value='3' />
+										  <param name='site_root' value='' />
+										  <param name='name' value='Citibike2018-2021Analytics&#47;Popularityofstations' />
+										  <param name='tabs' value='no' />
+										  <param name='toolbar' value='yes' />
+										  <param name='animate_transition' value='yes' />
+										  <param name='display_static_image' value='yes' />
+										  <param name='display_spinner' value='yes' />
+										  <param name='display_overlay' value='yes' />
+										  <param name='display_count' value='yes' />
+										  <param name='language' value='en-US' />
+									</object>
+								</div>
+								<script type='text/javascript'>                    
+								var divElement = document.getElementById('viz1642749147982');
+								var vizElement = divElement.getElementsByTagName('object')[0];                    
+								if ( divElement.offsetWidth > 800 ) {
+									 vizElement.style.minWidth='420px';
+									 vizElement.style.maxWidth='650px';
+									 vizElement.style.width='100%';
+									 vizElement.style.minHeight='587px';
+									 vizElement.style.maxHeight='887px';
+									 vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+									 } 
+								else if ( divElement.offsetWidth > 500 ) {
+									 vizElement.style.minWidth='420px';
+									 vizElement.style.maxWidth='650px';
+									 vizElement.style.width='100%';
+									 vizElement.style.minHeight='587px';
+									 vizElement.style.maxHeight='887px';
+									 vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+								} else { 
+									vizElement.style.width='100%';
+									vizElement.style.height='1077px';
+									}                     
+									var scriptElement = document.createElement('script');
+									scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+									vizElement.parentNode.insertBefore(scriptElement, vizElement);
+								 </script>
+								<br>
+								<div class='tableauPlaceholder' id='viz1642749510689' style='position: relative'><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='earthquakes_16396481776020&#47;Incomevsearthquakes' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1642749510689');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+								
 							</section>
 
 					</div>
 
-				<!-- Footer -->
-					<footer id="footer">
-						<section>
-							<form method="post" action="#">
-								<div class="fields">
-									<div class="field">
-										<label for="name">Name</label>
-										<input type="text" name="name" id="name" />
-									</div>
-									<div class="field">
-										<label for="email">Email</label>
-										<input type="text" name="email" id="email" />
-									</div>
-									<div class="field">
-										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="3"></textarea>
-									</div>
-								</div>
-								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
-								</ul>
-							</form>
-						</section>
-						<section class="split contact">
-							<section class="alt">
-								<h3>Address</h3>
-								<p>1234 Somewhere Road #87257<br />
-								Nashville, TN 00000-0000</p>
-							</section>
-							<section>
-								<h3>Phone</h3>
-								<p><a href="#">(000) 000-0000</a></p>
-							</section>
-							<section>
-								<h3>Email</h3>
-								<p><a href="#">info@untitled.tld</a></p>
-							</section>
-							<section>
-								<h3>Social</h3>
-								<ul class="icons alt">
-									<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
-									<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-									<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-								</ul>
-							</section>
-						</section>
-					</footer>
+				
 
 				<!-- Copyright -->
 					<div id="copyright">
@@ -162,14 +163,20 @@
 
 			</div>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+		<!-- html template scripts -->
+			<script src="../static/js/jquery.min.js"></script>
+			<script src="../static/js/jquery.scrollex.min.js"></script>
+			<script src="../static/js/jquery.scrolly.min.js"></script>
+			<script src="../static/js/browser.min.js"></script>
+			<script src="../static/js/breakpoints.min.js"></script>
+			<script src="../static/js/util.js"></script>
+			<script src="../static/js/main.js"></script>
+
+		<!-- Tableau server script -->
+		<!-- <script type="text/javascript" src="https://public.tableau.com/javascripts/api/tableau-2.min.js"></script> -->
+
+		<!-- Logic script -->
+			<script src="../static/js/logic.js"></script>
 
 	</body>
 </html>
