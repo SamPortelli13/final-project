@@ -1,5 +1,5 @@
 drop view afl_combined_teams;
-create view afl_combined_teams as
+create view afl_combined_teams as 
 select a.hometeam as team, a.gameid, a.date, a.year, a.round, a.venue, a.starttime, 1 as home_away, a.hometeam_score as team_score,rainfall, a.hometeam_points as team_points, 
 	a.awayteam as opposing_team, a.awayteamscore as opposing_team_score, 
 	case when a.hometeam=a.winningteam then a.winningmargin else a.winningmargin * -1 end as win_loss_margin,
@@ -27,8 +27,7 @@ select a.hometeam as team, a.gameid, a.date, a.year, a.round, a.venue, a.startti
 	sum(bounces) as bounces,
 	sum(goal_assists) as goal_assists
 	from games a
-	left outer join stats as b on a.gameid = b.gameid
-	where a.hometeam = b.team
+	left outer join stats as b on a.gameid = b.gameid and a.hometeam = b.team
 group by a.hometeam, a.gameid, a.date, a.year, a.round, a.venue, a.starttime,  a.hometeam_score, a.hometeam_points , 
 	a.awayteam , a.awayteamscore	
 union
@@ -59,8 +58,7 @@ select a.awayteam as team, a.gameid, a.date, a.year, a.round, a.venue, a.startti
 	sum(bounces) as bounces,
 	sum(goal_assists) as goal_assists
 	from games a
-	left outer join stats as b on a.gameid = b.gameid
-	where a.awayteam = b.team
+	left outer join stats as b on a.gameid = b.gameid a.awayteam = b.team
 group by a.awayteam, a.gameid, a.date, a.year, a.round, a.venue, a.starttime,  a.awayteamscore, a.awayteam_points , 
 	a.hometeam , a.hometeam_score	
 

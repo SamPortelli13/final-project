@@ -13,7 +13,7 @@ import time
 
   
 # Database Setup
-connection_string = "postgres:Batman4!@localhost:5432/afl_statistics_DB"
+connection_string = "postgres:Golfer7!@localhost:5432/afl_statistics_DB"
 engine = create_engine(f'postgresql://{connection_string}')
 
 # reflect an existing database into a new model
@@ -32,7 +32,7 @@ app = Flask(__name__)
 def welcome():
     return render_template("index.html")
 
-@app.route("/compare")
+@app.route("/charts")
 def compare():
     return render_template("charts.html")
 

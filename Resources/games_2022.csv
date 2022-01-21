@@ -1,0 +1,199 @@
+gameId,year,round,date,venue,startTime,attendance,homeTeam,homeTeam_Score,awayTeam,awayTeam_Score,rainfall,winning team,winningmargin,winningmargin_percent,hometeam_points,awayteam_points
+2022R101,2022,R1,16/03/2022,MCG,7:10:00 PM,0,Melbourne,0,Western Bulldogs,0,0,not played yet,0,0,0,0
+2022R102,2022,R1,17/03/2022,MCG,7:25:00 PM,0,Carlton,0,Richmond,0,0,not played yet,0,0,0,0
+2022R103,2022,R1,18/03/2022,Marvel Stadium,7:50:00 PM,0,St Kilda,0,Collingwood,0,0,not played yet,0,0,0,0
+2022R104,2022,R1,19/03/2022,MCG,2:10:00 PM,0,Geelong Cats,0,Essendon,0,0,not played yet,0,0,0,0
+2022R105,2022,R1,19/03/2022,Accor Stadium Australia,5:10:00 PM,0,GWS Giants,0,Sydney Swans,0,0,not played yet,0,0,0,0
+2022R106,2022,R1,19/03/2022,Gabba,8:10:00 PM,0,Brisbane Lions,0,Port Adelaide,0,0,not played yet,0,0,0,0
+2022R107,2022,R1,20/03/2022,MCG,1:10:00 PM,0,Hawthorn,0,North Melbourne,0,0,not played yet,0,0,0,0
+2022R108,2022,R1,20/03/2022,Adelaide Oval,4:10:00 PM,0,Adelaide Crows,0,Fremantle,0,0,not played yet,0,0,0,0
+2022R109,2022,R1,20/03/2022,Optus Stadium,7:40:00 PM,0,West Coast Eagles,0,Gold Coast Suns,0,0,not played yet,0,0,0,0
+2022R201,2022,R2,24/03/2022,Marvel Stadium,7:20:00 PM,0,Western Bulldogs,0,Carlton,0,0,not played yet,0,0,0,0
+2022R202,2022,R2,25/03/2022,SCG,7:50:00 PM,0,Sydney Swans,0,Geelong Cats,0,0,not played yet,0,0,0,0
+2022R203,2022,R2,26/03/2022,MCG,1:45:00 PM,0,Collingwood,0,Adelaide Crows,0,0,not played yet,0,0,0,0
+2022R204,2022,R2,26/03/2022,Marvel Stadium,4:35:00 PM,0,Essendon,0,Brisbane Lions,0,0,not played yet,0,0,0,0
+2022R205,2022,R2,26/03/2022,Adelaide Oval,7:40:00 PM,0,Port Adelaide,0,Hawthorn,0,0,not played yet,0,0,0,0
+2022R206,2022,R2,26/03/2022,Metricon Stadium,8:00:00 PM,0,Gold Coast Suns,0,Melbourne,0,0,not played yet,0,0,0,0
+2022R207,2022,R2,27/03/2022,Marvel Stadium,1:10:00 PM,0,North Melbourne,0,West Coast Eagles,0,0,not played yet,0,0,0,0
+2022R208,2022,R2,27/03/2022,MCG,3:20:00 PM,0,Richmond,0,GWS Giants,0,0,not played yet,0,0,0,0
+2022R209,2022,R2,27/03/2022,Optus Stadium,6:20:00 PM,0,Fremantle,0,St Kilda,0,0,not played yet,0,0,0,0
+2022R301,2022,R3,31/03/2022,Marvel Stadium,7:20:00 PM,0,Western Bulldogs,0,Sydney Swans,0,0,not played yet,0,0,0,0
+2022R302,2022,R3,1/04/2022,MCG,7:20:00 PM,0,Melbourne,0,Essendon,0,0,not played yet,0,0,0,0
+2022R303,2022,R3,1/04/2022,Adelaide Oval,8:20:00 PM,0,Adelaide Crows,0,Port Adelaide,0,0,not played yet,0,0,0,0
+2022R304,2022,R3,2/04/2022,GIANTS Stadium,1:10:00 PM,0,GWS Giants,0,Gold Coast Suns,0,0,not played yet,0,0,0,0
+2022R305,2022,R3,2/04/2022,MCG,7:25:00 PM,0,Collingwood,0,Geelong Cats,0,0,not played yet,0,0,0,0
+2022R306,2022,R3,2/04/2022,Gabba,8:00:00 PM,0,Brisbane Lions,0,North Melbourne,0,0,not played yet,0,0,0,0
+2022R307,2022,R3,3/04/2022,MCG,1:10:00 PM,0,Carlton,0,Hawthorn,0,0,not played yet,0,0,0,0
+2022R308,2022,R3,3/04/2022,Marvel Stadium,3:20:00 PM,0,St Kilda,0,Richmond,0,0,not played yet,0,0,0,0
+2022R309,2022,R3,3/04/2022,Optus Stadium,6:20:00 PM,0,West Coast Eagles,0,Fremantle,0,0,not played yet,0,0,0,0
+2022R401,2022,R4,7/04/2022,Adelaide Oval,7:40:00 PM,0,Port Adelaide,0,Melbourne,0,0,not played yet,0,0,0,0
+2022R402,2022,R4,8/04/2022,GMHBA Stadium,7:50:00 PM,0,Geelong Cats,0,Brisbane Lions,0,0,not played yet,0,0,0,0
+2022R403,2022,R4,9/04/2022,SCG,1:45:00 PM,0,Sydney Swans,0,North Melbourne,0,0,not played yet,0,0,0,0
+2022R404,2022,R4,9/04/2022,Marvel Stadium,4:35:00 PM,0,Collingwood,0,West Coast Eagles,0,0,not played yet,0,0,0,0
+2022R405,2022,R4,9/04/2022,MCG,7:25:00 PM,0,Richmond,0,Western Bulldogs,0,0,not played yet,0,0,0,0
+2022R406,2022,R4,9/04/2022,Optus Stadium,7:25:00 PM,0,Fremantle,0,GWS Giants,0,0,not played yet,0,0,0,0
+2022R407,2022,R4,10/04/2022,Marvel Stadium,1:10:00 PM,0,Essendon,0,Adelaide Crows,0,0,not played yet,0,0,0,0
+2022R408,2022,R4,10/04/2022,MCG,3:20:00 PM,0,Hawthorn,0,St Kilda,0,0,not played yet,0,0,0,0
+2022R409,2022,R4,10/04/2022,Metricon Stadium,4:10:00 PM,0,Gold Coast Suns,0,Carlton,0,0,not played yet,0,0,0,0
+2022R501,2022,R5,14/04/2022,Gabba,7:35:00 PM,0,Brisbane Lions,0,Collingwood,0,0,not played yet,0,0,0,0
+2022R502,2022,R5,15/04/2022,Marvel Stadium,4:20:00 PM,0,North Melbourne,0,Western Bulldogs,0,0,not played yet,0,0,0,0
+2022R503,2022,R5,15/04/2022,Optus Stadium,7:40:00 PM,0,West Coast Eagles,0,Sydney Swans,0,0,not played yet,0,0,0,0
+2022R504,2022,R5,16/04/2022,Marvel Stadium,1:45:00 PM,0,St Kilda,0,Gold Coast Suns,0,0,not played yet,0,0,0,0
+2022R505,2022,R5,16/04/2022,Adelaide Oval,4:35:00 PM,0,Adelaide Crows,0,Richmond,0,0,not played yet,0,0,0,0
+2022R506,2022,R5,16/04/2022,MCG,7:25:00 PM,0,Melbourne,0,GWS Giants,0,0,not played yet,0,0,0,0
+2022R507,2022,R5,17/04/2022,MCG,1:40:00 PM,0,Carlton,0,Port Adelaide,0,0,not played yet,0,0,0,0
+2022R508,2022,R5,17/04/2022,Marvel Stadium,4:40:00 PM,0,Essendon,0,Fremantle,0,0,not played yet,0,0,0,0
+2022R509,2022,R5,18/04/2022,MCG,3:20:00 PM,0,Hawthorn,0,Geelong Cats,0,0,not played yet,0,0,0,0
+2022R601,2022,R6,22/04/2022,Manuka Oval,7:50:00 PM,0,GWS Giants,0,St Kilda,0,0,not played yet,0,0,0,0
+2022R602,2022,R6,23/04/2022,Mars Stadium,1:45:00 PM,0,Western Bulldogs,0,Adelaide Crows,0,0,not played yet,0,0,0,0
+2022R603,2022,R6,23/04/2022,Adelaide Oval,4:35:00 PM,0,Port Adelaide,0,West Coast Eagles,0,0,not played yet,0,0,0,0
+2022R604,2022,R6,23/04/2022,Optus Stadium,7:40:00 PM,0,Fremantle,0,Carlton,0,0,not played yet,0,0,0,0
+2022R605,2022,R6,24/04/2022,Blundstone Arena,1:10:00 PM,0,North Melbourne,0,Geelong Cats,0,0,not played yet,0,0,0,0
+2022R606,2022,R6,24/04/2022,Metricon Stadium,4:10:00 PM,0,Gold Coast Suns,0,Brisbane Lions,0,0,not played yet,0,0,0,0
+2022R607,2022,R6,24/04/2022,MCG,7:25:00 PM,0,Richmond,0,Melbourne,0,0,not played yet,0,0,0,0
+2022R608,2022,R6,25/04/2022,University of Tasmania Stadium,12:30:00 PM,0,Hawthorn,0,Sydney Swans,0,0,not played yet,0,0,0,0
+2022R609,2022,R6,25/04/2022,MCG,3:20:00 PM,0,Essendon,0,Collingwood,0,0,not played yet,0,0,0,0
+2022R701,2022,R7,29/04/2022,Optus Stadium,8:10:00 PM,0,West Coast Eagles,0,Richmond,0,0,not played yet,0,0,0,0
+2022R702,2022,R7,30/04/2022,GMHBA Stadium,1:45:00 PM,0,Geelong Cats,0,Fremantle,0,0,not played yet,0,0,0,0
+2022R703,2022,R7,30/04/2022,Adelaide Oval,2:10:00 PM,0,Adelaide Crows,0,GWS Giants,0,0,not played yet,0,0,0,0
+2022R704,2022,R7,30/04/2022,MCG,4:35:00 PM,0,Melbourne,0,Hawthorn,0,0,not played yet,0,0,0,0
+2022R705,2022,R7,30/04/2022,Cazalys Stadium,7:25:00 PM,0,St Kilda,0,Port Adelaide,0,0,not played yet,0,0,0,0
+2022R706,2022,R7,30/04/2022,Marvel Stadium,7:25:00 PM,0,Carlton,0,North Melbourne,0,0,not played yet,0,0,0,0
+2022R707,2022,R7,1/05/2022,MCG,1:10:00 PM,0,Collingwood,0,Gold Coast Suns,0,0,not played yet,0,0,0,0
+2022R708,2022,R7,1/05/2022,Marvel Stadium,3:20:00 PM,0,Western Bulldogs,0,Essendon,0,0,not played yet,0,0,0,0
+2022R709,2022,R7,1/05/2022,SCG,4:40:00 PM,0,Sydney Swans,0,Brisbane Lions,0,0,not played yet,0,0,0,0
+2022R801,2022,R8,6/05/2022,Adelaide Oval,7:30:00 PM,0,Port Adelaide,0,Western Bulldogs,0,0,not played yet,0,0,0,0
+2022R802,2022,R8,6/05/2022,Optus Stadium,8:40:00 PM,0,Fremantle,0,North Melbourne,0,0,not played yet,0,0,0,0
+2022R803,2022,R8,7/05/2022,MCG,1:45:00 PM,0,Richmond,0,Collingwood,0,0,not played yet,0,0,0,0
+2022R804,2022,R8,7/05/2022,SCG,1:45:00 PM,0,Sydney Swans,0,Gold Coast Suns,0,0,not played yet,0,0,0,0
+2022R805,2022,R8,7/05/2022,Manuka Oval,4:35:00 PM,0,GWS Giants,0,Geelong Cats,0,0,not played yet,0,0,0,0
+2022R806,2022,R8,7/05/2022,Marvel Stadium,7:25:00 PM,0,Essendon,0,Hawthorn,0,0,not played yet,0,0,0,0
+2022R807,2022,R8,7/05/2022,Gabba,7:25:00 PM,0,Brisbane Lions,0,West Coast Eagles,0,0,not played yet,0,0,0,0
+2022R808,2022,R8,8/05/2022,MCG,1:10:00 PM,0,Melbourne,0,St Kilda,0,0,not played yet,0,0,0,0
+2022R809,2022,R8,8/05/2022,Marvel Stadium,4:40:00 PM,0,Carlton,0,Adelaide Crows,0,0,not played yet,0,0,0,0
+2022R901,2022,R9,13/05/2022,Marvel Stadium,7:50:00 PM,0,Collingwood,0,Western Bulldogs,0,0,not played yet,0,0,0,0
+2022R902,2022,R9,14/05/2022,MCG,1:45:00 PM,0,Hawthorn,0,Richmond,0,0,not played yet,0,0,0,0
+2022R903,2022,R9,14/05/2022,Blundstone Arena,2:10:00 PM,0,North Melbourne,0,Port Adelaide,0,0,not played yet,0,0,0,0
+2022R904,2022,R9,14/05/2022,Marvel Stadium,4:35:00 PM,0,St Kilda,0,Geelong Cats,0,0,not played yet,0,0,0,0
+2022R905,2022,R9,14/05/2022,SCG,7:25:00 PM,0,Sydney Swans,0,Essendon,0,0,not played yet,0,0,0,0
+2022R906,2022,R9,14/05/2022,Adelaide Oval,7:40:00 PM,0,Adelaide Crows,0,Brisbane Lions,0,0,not played yet,0,0,0,0
+2022R907,2022,R9,15/05/2022,Metricon Stadium,1:40:00 PM,0,Gold Coast Suns,0,Fremantle,0,0,not played yet,0,0,0,0
+2022R908,2022,R9,15/05/2022,GIANTS Stadium,3:20:00 PM,0,GWS Giants,0,Carlton,0,0,not played yet,0,0,0,0
+2022R909,2022,R9,15/05/2022,Optus Stadium,5:20:00 PM,0,West Coast Eagles,0,Melbourne,0,0,not played yet,0,0,0,0
+2022R1001,2022,R10,20/05/2022,Marvel Stadium,12:00:00 PM,0,Carlton,0,Sydney Swans,0,0,not played yet,0,0,0,0
+2022R1002,2022,R10,20/05/2022,GMHBA Stadium,12:00:00 PM,0,Geelong Cats,0,Port Adelaide,0,0,not played yet,0,0,0,0
+2022R1003,2022,R10,20/05/2022,GIANTS Stadium,12:00:00 PM,0,GWS Giants,0,West Coast Eagles,0,0,not played yet,0,0,0,0
+2022R1004,2022,R10,20/05/2022,University of Tasmania Stadium,12:00:00 PM,0,Hawthorn,0,Brisbane Lions,0,0,not played yet,0,0,0,0
+2022R1005,2022,R10,20/05/2022,Marvel Stadium,12:00:00 PM,0,North Melbourne,0,Melbourne,0,0,not played yet,0,0,0,0
+2022R1006,2022,R10,20/05/2022,MCG,12:00:00 PM,0,Richmond,0,Essendon,0,0,not played yet,0,0,0,0
+2022R1007,2022,R10,20/05/2022,Mars Stadium,12:00:00 PM,0,Western Bulldogs,0,Gold Coast Suns,0,0,not played yet,0,0,0,0
+2022R1008,2022,R10,20/05/2022,Adelaide Oval,12:30:00 PM,0,Adelaide Crows,0,St Kilda,0,0,not played yet,0,0,0,0
+2022R1009,2022,R10,20/05/2022,Optus Stadium,2:00:00 PM,0,Fremantle,0,Collingwood,0,0,not played yet,0,0,0,0
+2022R1101,2022,R11,27/05/2022,Gabba,12:00:00 PM,0,Brisbane Lions,0,GWS Giants,0,0,not played yet,0,0,0,0
+2022R1102,2022,R11,27/05/2022,MCG,12:00:00 PM,0,Collingwood,0,Carlton,0,0,not played yet,0,0,0,0
+2022R1103,2022,R11,27/05/2022,GMHBA Stadium,12:00:00 PM,0,Geelong Cats,0,Adelaide Crows,0,0,not played yet,0,0,0,0
+2022R1104,2022,R11,27/05/2022,MCG,12:00:00 PM,0,Melbourne,0,Fremantle,0,0,not played yet,0,0,0,0
+2022R1105,2022,R11,27/05/2022,Marvel Stadium,12:00:00 PM,0,St Kilda,0,North Melbourne,0,0,not played yet,0,0,0,0
+2022R1106,2022,R11,27/05/2022,SCG,12:00:00 PM,0,Sydney Swans,0,Richmond,0,0,not played yet,0,0,0,0
+2022R1107,2022,R11,27/05/2022,TIO Stadium,12:30:00 PM,0,Gold Coast Suns,0,Hawthorn,0,0,not played yet,0,0,0,0
+2022R1108,2022,R11,27/05/2022,Adelaide Oval,12:30:00 PM,0,Port Adelaide,0,Essendon,0,0,not played yet,0,0,0,0
+2022R1109,2022,R11,27/05/2022,Optus Stadium,2:00:00 PM,0,West Coast Eagles,0,Western Bulldogs,0,0,not played yet,0,0,0,0
+2022R1201,2022,R12,3/06/2022,MCG,12:00:00 PM,0,Hawthorn,0,Collingwood,0,0,not played yet,0,0,0,0
+2022R1202,2022,R12,3/06/2022,MCG,12:00:00 PM,0,Melbourne,0,Sydney Swans,0,0,not played yet,0,0,0,0
+2022R1203,2022,R12,3/06/2022,Marvel Stadium,12:00:00 PM,0,Western Bulldogs,0,Geelong Cats,0,0,not played yet,0,0,0,0
+2022R1204,2022,R12,3/06/2022,Adelaide Oval,12:30:00 PM,0,Adelaide Crows,0,West Coast Eagles,0,0,not played yet,0,0,0,0
+2022R1205,2022,R12,3/06/2022,TIO Stadium,12:30:00 PM,0,Gold Coast Suns,0,North Melbourne,0,0,not played yet,0,0,0,0
+2022R1206,2022,R12,3/06/2022,Optus Stadium,2:00:00 PM,0,Fremantle,0,Brisbane Lions,0,0,not played yet,0,0,0,0
+2022R1301,2022,R13,10/06/2022,Gabba,12:00:00 PM,0,Brisbane Lions,0,St Kilda,0,0,not played yet,0,0,0,0
+2022R1302,2022,R13,10/06/2022,MCG,12:00:00 PM,0,Collingwood,0,Melbourne,0,0,not played yet,0,0,0,0
+2022R1303,2022,R13,10/06/2022,MCG,12:00:00 PM,0,Essendon,0,Carlton,0,0,not played yet,0,0,0,0
+2022R1304,2022,R13,10/06/2022,Marvel Stadium,12:00:00 PM,0,North Melbourne,0,GWS Giants,0,0,not played yet,0,0,0,0
+2022R1305,2022,R13,10/06/2022,MCG,12:00:00 PM,0,Richmond,0,Port Adelaide,0,0,not played yet,0,0,0,0
+2022R1306,2022,R13,10/06/2022,Optus Stadium,2:00:00 PM,0,Fremantle,0,Hawthorn,0,0,not played yet,0,0,0,0
+2022R1401,2022,R14,17/06/2022,Metricon Stadium,12:00:00 PM,0,Gold Coast Suns,0,Adelaide Crows,0,0,not played yet,0,0,0,0
+2022R1402,2022,R14,17/06/2022,GIANTS Stadium,12:00:00 PM,0,GWS Giants,0,Western Bulldogs,0,0,not played yet,0,0,0,0
+2022R1403,2022,R14,17/06/2022,MCG,12:00:00 PM,0,Richmond,0,Carlton,0,0,not played yet,0,0,0,0
+2022R1404,2022,R14,17/06/2022,Marvel Stadium,12:00:00 PM,0,St Kilda,0,Essendon,0,0,not played yet,0,0,0,0
+2022R1405,2022,R14,17/06/2022,Adelaide Oval,12:30:00 PM,0,Port Adelaide,0,Sydney Swans,0,0,not played yet,0,0,0,0
+2022R1406,2022,R14,17/06/2022,Optus Stadium,2:00:00 PM,0,West Coast Eagles,0,Geelong Cats,0,0,not played yet,0,0,0,0
+2022R1501,2022,R15,24/06/2022,Marvel Stadium,12:00:00 PM,0,Carlton,0,Fremantle,0,0,not played yet,0,0,0,0
+2022R1502,2022,R15,24/06/2022,MCG,12:00:00 PM,0,Collingwood,0,GWS Giants,0,0,not played yet,0,0,0,0
+2022R1503,2022,R15,24/06/2022,MCG,12:00:00 PM,0,Geelong Cats,0,Richmond,0,0,not played yet,0,0,0,0
+2022R1504,2022,R15,24/06/2022,MCG,12:00:00 PM,0,Melbourne,0,Brisbane Lions,0,0,not played yet,0,0,0,0
+2022R1505,2022,R15,24/06/2022,Blundstone Arena,12:00:00 PM,0,North Melbourne,0,Adelaide Crows,0,0,not played yet,0,0,0,0
+2022R1506,2022,R15,24/06/2022,SCG,12:00:00 PM,0,Sydney Swans,0,St Kilda,0,0,not played yet,0,0,0,0
+2022R1507,2022,R15,24/06/2022,Marvel Stadium,12:00:00 PM,0,Western Bulldogs,0,Hawthorn,0,0,not played yet,0,0,0,0
+2022R1508,2022,R15,24/06/2022,Adelaide Oval,12:30:00 PM,0,Port Adelaide,0,Gold Coast Suns,0,0,not played yet,0,0,0,0
+2022R1509,2022,R15,24/06/2022,Optus Stadium,2:00:00 PM,0,West Coast Eagles,0,Essendon,0,0,not played yet,0,0,0,0
+2022R1601,2022,R16,1/07/2022,Gabba,12:00:00 PM,0,Brisbane Lions,0,Western Bulldogs,0,0,not played yet,0,0,0,0
+2022R1602,2022,R16,1/07/2022,Marvel Stadium,12:00:00 PM,0,Carlton,0,St Kilda,0,0,not played yet,0,0,0,0
+2022R1603,2022,R16,1/07/2022,MCG,12:00:00 PM,0,Essendon,0,Sydney Swans,0,0,not played yet,0,0,0,0
+2022R1604,2022,R16,1/07/2022,GMHBA Stadium,12:00:00 PM,0,Geelong Cats,0,North Melbourne,0,0,not played yet,0,0,0,0
+2022R1605,2022,R16,1/07/2022,Metricon Stadium,12:00:00 PM,0,Gold Coast Suns,0,Collingwood,0,0,not played yet,0,0,0,0
+2022R1606,2022,R16,1/07/2022,GIANTS Stadium,12:00:00 PM,0,GWS Giants,0,Hawthorn,0,0,not played yet,0,0,0,0
+2022R1607,2022,R16,1/07/2022,MCG,12:00:00 PM,0,Richmond,0,West Coast Eagles,0,0,not played yet,0,0,0,0
+2022R1608,2022,R16,1/07/2022,Adelaide Oval,12:30:00 PM,0,Adelaide Crows,0,Melbourne,0,0,not played yet,0,0,0,0
+2022R1609,2022,R16,1/07/2022,Optus Stadium,2:00:00 PM,0,Fremantle,0,Port Adelaide,0,0,not played yet,0,0,0,0
+2022R1701,2022,R17,8/07/2022,Gabba,12:00:00 PM,0,Brisbane Lions,0,Essendon,0,0,not played yet,0,0,0,0
+2022R1702,2022,R17,8/07/2022,MCG,12:00:00 PM,0,Collingwood,0,North Melbourne,0,0,not played yet,0,0,0,0
+2022R1703,2022,R17,8/07/2022,GMHBA Stadium,12:00:00 PM,0,Geelong Cats,0,Melbourne,0,0,not played yet,0,0,0,0
+2022R1704,2022,R17,8/07/2022,Metricon Stadium,12:00:00 PM,0,Gold Coast Suns,0,Richmond,0,0,not played yet,0,0,0,0
+2022R1705,2022,R17,8/07/2022,Marvel Stadium,12:00:00 PM,0,Hawthorn,0,Adelaide Crows,0,0,not played yet,0,0,0,0
+2022R1706,2022,R17,8/07/2022,Marvel Stadium,12:00:00 PM,0,St Kilda,0,Fremantle,0,0,not played yet,0,0,0,0
+2022R1707,2022,R17,8/07/2022,SCG,12:00:00 PM,0,Sydney Swans,0,Western Bulldogs,0,0,not played yet,0,0,0,0
+2022R1708,2022,R17,8/07/2022,Adelaide Oval,12:30:00 PM,0,Port Adelaide,0,GWS Giants,0,0,not played yet,0,0,0,0
+2022R1709,2022,R17,8/07/2022,Optus Stadium,2:00:00 PM,0,West Coast Eagles,0,Carlton,0,0,not played yet,0,0,0,0
+2022R1801,2022,R18,15/07/2022,MCG,12:00:00 PM,0,Carlton,0,Geelong Cats,0,0,not played yet,0,0,0,0
+2022R1802,2022,R18,15/07/2022,Marvel Stadium,12:00:00 PM,0,Essendon,0,Gold Coast Suns,0,0,not played yet,0,0,0,0
+2022R1803,2022,R18,15/07/2022,Manuka Oval,12:00:00 PM,0,GWS Giants,0,Brisbane Lions,0,0,not played yet,0,0,0,0
+2022R1804,2022,R18,15/07/2022,MCG,12:00:00 PM,0,Hawthorn,0,West Coast Eagles,0,0,not played yet,0,0,0,0
+2022R1805,2022,R18,15/07/2022,Marvel Stadium,12:00:00 PM,0,North Melbourne,0,Richmond,0,0,not played yet,0,0,0,0
+2022R1806,2022,R18,15/07/2022,Marvel Stadium,12:00:00 PM,0,Western Bulldogs,0,St Kilda,0,0,not played yet,0,0,0,0
+2022R1807,2022,R18,15/07/2022,Adelaide Oval,12:30:00 PM,0,Adelaide Crows,0,Collingwood,0,0,not played yet,0,0,0,0
+2022R1808,2022,R18,15/07/2022,TIO Traeger Park,12:30:00 PM,0,Melbourne,0,Port Adelaide,0,0,not played yet,0,0,0,0
+2022R1809,2022,R18,15/07/2022,Optus Stadium,2:00:00 PM,0,Fremantle,0,Sydney Swans,0,0,not played yet,0,0,0,0
+2022R1901,2022,R19,22/07/2022,Gabba,12:00:00 PM,0,Brisbane Lions,0,Gold Coast Suns,0,0,not played yet,0,0,0,0
+2022R1902,2022,R19,22/07/2022,Marvel Stadium,12:00:00 PM,0,Carlton,0,GWS Giants,0,0,not played yet,0,0,0,0
+2022R1903,2022,R19,22/07/2022,MCG,12:00:00 PM,0,Collingwood,0,Essendon,0,0,not played yet,0,0,0,0
+2022R1904,2022,R19,22/07/2022,Blundstone Arena,12:00:00 PM,0,North Melbourne,0,Hawthorn,0,0,not played yet,0,0,0,0
+2022R1905,2022,R19,22/07/2022,Marvel Stadium,12:00:00 PM,0,Richmond,0,Fremantle,0,0,not played yet,0,0,0,0
+2022R1906,2022,R19,22/07/2022,SCG,12:00:00 PM,0,Sydney Swans,0,Adelaide Crows,0,0,not played yet,0,0,0,0
+2022R1907,2022,R19,22/07/2022,Marvel Stadium,12:00:00 PM,0,Western Bulldogs,0,Melbourne,0,0,not played yet,0,0,0,0
+2022R1908,2022,R19,22/07/2022,Adelaide Oval,12:30:00 PM,0,Port Adelaide,0,Geelong Cats,0,0,not played yet,0,0,0,0
+2022R1909,2022,R19,22/07/2022,Optus Stadium,2:00:00 PM,0,West Coast Eagles,0,St Kilda,0,0,not played yet,0,0,0,0
+2022R2001,2022,R20,29/07/2022,MCG,12:00:00 PM,0,Collingwood,0,Port Adelaide,0,0,not played yet,0,0,0,0
+2022R2002,2022,R20,29/07/2022,Marvel Stadium,12:00:00 PM,0,Essendon,0,North Melbourne,0,0,not played yet,0,0,0,0
+2022R2003,2022,R20,29/07/2022,GMHBA Stadium,12:00:00 PM,0,Geelong Cats,0,Western Bulldogs,0,0,not played yet,0,0,0,0
+2022R2004,2022,R20,29/07/2022,Metricon Stadium,12:00:00 PM,0,Gold Coast Suns,0,West Coast Eagles,0,0,not played yet,0,0,0,0
+2022R2005,2022,R20,29/07/2022,MCG,12:00:00 PM,0,Richmond,0,Brisbane Lions,0,0,not played yet,0,0,0,0
+2022R2006,2022,R20,29/07/2022,Marvel Stadium,12:00:00 PM,0,St Kilda,0,Hawthorn,0,0,not played yet,0,0,0,0
+2022R2007,2022,R20,29/07/2022,SCG,12:00:00 PM,0,Sydney Swans,0,GWS Giants,0,0,not played yet,0,0,0,0
+2022R2008,2022,R20,29/07/2022,Adelaide Oval,12:30:00 PM,0,Adelaide Crows,0,Carlton,0,0,not played yet,0,0,0,0
+2022R2009,2022,R20,29/07/2022,Optus Stadium,2:00:00 PM,0,Fremantle,0,Melbourne,0,0,not played yet,0,0,0,0
+2022R2101,2022,R21,5/08/2022,Gabba,12:00:00 PM,0,Brisbane Lions,0,Carlton,0,0,not played yet,0,0,0,0
+2022R2102,2022,R21,5/08/2022,GMHBA Stadium,12:00:00 PM,0,Geelong Cats,0,St Kilda,0,0,not played yet,0,0,0,0
+2022R2103,2022,R21,5/08/2022,GIANTS Stadium,12:00:00 PM,0,GWS Giants,0,Essendon,0,0,not played yet,0,0,0,0
+2022R2104,2022,R21,5/08/2022,University of Tasmania Stadium,12:00:00 PM,0,Hawthorn,0,Gold Coast Suns,0,0,not played yet,0,0,0,0
+2022R2105,2022,R21,5/08/2022,MCG,12:00:00 PM,0,Melbourne,0,Collingwood,0,0,not played yet,0,0,0,0
+2022R2106,2022,R21,5/08/2022,Marvel Stadium,12:00:00 PM,0,North Melbourne,0,Sydney Swans,0,0,not played yet,0,0,0,0
+2022R2107,2022,R21,5/08/2022,Marvel Stadium,12:00:00 PM,0,Western Bulldogs,0,Fremantle,0,0,not played yet,0,0,0,0
+2022R2108,2022,R21,5/08/2022,Adelaide Oval,12:30:00 PM,0,Port Adelaide,0,Richmond,0,0,not played yet,0,0,0,0
+2022R2109,2022,R21,5/08/2022,Optus Stadium,2:00:00 PM,0,West Coast Eagles,0,Adelaide Crows,0,0,not played yet,0,0,0,0
+2022R2201,2022,R22,12/08/2022,Marvel Stadium,12:00:00 PM,0,Essendon,0,Port Adelaide,0,0,not played yet,0,0,0,0
+2022R2202,2022,R22,12/08/2022,Metricon Stadium,12:00:00 PM,0,Gold Coast Suns,0,Geelong Cats,0,0,not played yet,0,0,0,0
+2022R2203,2022,R22,12/08/2022,MCG,12:00:00 PM,0,Melbourne,0,Carlton,0,0,not played yet,0,0,0,0
+2022R2204,2022,R22,12/08/2022,MCG,12:00:00 PM,0,Richmond,0,Hawthorn,0,0,not played yet,0,0,0,0
+2022R2205,2022,R22,12/08/2022,Marvel Stadium,12:00:00 PM,0,St Kilda,0,Brisbane Lions,0,0,not played yet,0,0,0,0
+2022R2206,2022,R22,12/08/2022,SCG,12:00:00 PM,0,Sydney Swans,0,Collingwood,0,0,not played yet,0,0,0,0
+2022R2207,2022,R22,12/08/2022,Marvel Stadium,12:00:00 PM,0,Western Bulldogs,0,GWS Giants,0,0,not played yet,0,0,0,0
+2022R2208,2022,R22,12/08/2022,Adelaide Oval,12:30:00 PM,0,Adelaide Crows,0,North Melbourne,0,0,not played yet,0,0,0,0
+2022R2209,2022,R22,12/08/2022,Optus Stadium,2:00:00 PM,0,Fremantle,0,West Coast Eagles,0,0,not played yet,0,0,0,0
+2022R2301,2022,R23,19/08/2022,Gabba,12:00:00 PM,0,Brisbane Lions,0,Melbourne,0,0,not played yet,0,0,0,0
+2022R2302,2022,R23,19/08/2022,MCG,12:00:00 PM,0,Carlton,0,Collingwood,0,0,not played yet,0,0,0,0
+2022R2303,2022,R23,19/08/2022,MCG,12:00:00 PM,0,Essendon,0,Richmond,0,0,not played yet,0,0,0,0
+2022R2304,2022,R23,19/08/2022,GMHBA Stadium,12:00:00 PM,0,Geelong Cats,0,West Coast Eagles,0,0,not played yet,0,0,0,0
+2022R2305,2022,R23,19/08/2022,Manuka Oval,12:00:00 PM,0,GWS Giants,0,Fremantle,0,0,not played yet,0,0,0,0
+2022R2306,2022,R23,19/08/2022,University of Tasmania Stadium,12:00:00 PM,0,Hawthorn,0,Western Bulldogs,0,0,not played yet,0,0,0,0
+2022R2307,2022,R23,19/08/2022,Marvel Stadium,12:00:00 PM,0,North Melbourne,0,Gold Coast Suns,0,0,not played yet,0,0,0,0
+2022R2308,2022,R23,19/08/2022,Marvel Stadium,12:00:00 PM,0,St Kilda,0,Sydney Swans,0,0,not played yet,0,0,0,0
+2022R2309,2022,R23,19/08/2022,Adelaide Oval,12:30:00 PM,0,Port Adelaide,0,Adelaide Crows,0,0,not played yet,0,0,0,0
