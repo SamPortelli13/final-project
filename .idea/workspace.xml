@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ce7bbd51-34a4-4bb5-93a9-f1546ae7d727" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/logic.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/logic.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/assets/css/fontawesome-all.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/assets/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/assets/css/noscript.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/assets/js/breakpoints.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/assets/js/browser.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/assets/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/assets/js/jquery.scrollex.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/assets/js/jquery.scrolly.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/assets/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/assets/js/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/assets/sass/base/_page.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/assets/sass/base/_reset.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/assets/sass/base/_typography.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/assets/sass/components/_actions.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/assets/sass/components/_box.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/assets/sass/components/_button.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/assets/sass/components/_form.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/assets/sass/components/_icon.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/assets/sass/components/_icons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/assets/sass/components/_image.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/assets/sass/components/_list.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/assets/sass/components/_pagination.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/assets/sass/components/_row.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/assets/sass/components/_section.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/assets/sass/components/_table.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/assets/sass/layout/_footer.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/assets/sass/layout/_header.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/assets/sass/layout/_intro.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/assets/sass/layout/_main.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/assets/sass/layout/_nav.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/assets/sass/layout/_navPanel.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/assets/sass/layout/_wrapper.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/assets/sass/libs/_breakpoints.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/assets/sass/libs/_fixed-grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/assets/sass/libs/_functions.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/assets/sass/libs/_html-grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/assets/sass/libs/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/assets/sass/libs/_vars.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/assets/sass/libs/_vendor.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/assets/sass/main.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/assets/sass/noscript.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/assets/webfonts/fa-brands-400.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/assets/webfonts/fa-brands-400.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/assets/webfonts/fa-brands-400.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/assets/webfonts/fa-brands-400.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/assets/webfonts/fa-brands-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/assets/webfonts/fa-regular-400.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/assets/webfonts/fa-regular-400.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/assets/webfonts/fa-regular-400.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/assets/webfonts/fa-regular-400.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/assets/webfonts/fa-regular-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/assets/webfonts/fa-solid-900.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/assets/webfonts/fa-solid-900.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/assets/webfonts/fa-solid-900.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/assets/webfonts/fa-solid-900.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/assets/webfonts/fa-solid-900.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/charts.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/charts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/model.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/model.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="242e1UyyKROnwQs7OuSiMonjOBo" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ce7bbd51-34a4-4bb5-93a9-f1546ae7d727" name="Default Changelist" comment="" />
+      <created>1642832896057</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1642832896057</updated>
+    </task>
+    <servers />
+  </component>
+</project>
