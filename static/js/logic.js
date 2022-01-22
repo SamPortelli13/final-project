@@ -1,14 +1,13 @@
 var predictButton = d3.select("#predict");
+const url = "/data";
+console.log("Into Logic.js.....");
 
 predictButton.on("click",function() {
-    console.log("Predict button clicked");
-    
-    const source = "../../Resources/model_export.json";
-        
-    d3.json(source).then(function(response) {  
+    console.log("Predict.. button clicked");
+    const url = "/data";    
+    d3.json(url).then(function(response) {  
         console.log("data:",response);
         var tableData = response;
-
         let dataList = [];
         for (let i=0; i<tableData.length; i++){
             var dict = {};
@@ -39,9 +38,9 @@ predictButton.on("click",function() {
         
         // Display the value property of each of the input elements
         console.log("year:",inputValue_year);
-        console.log("city:",inputValue_round);
-        console.log("state:",inputValue_team1);
-        console.log("country:",inputValue_team2);
+        console.log("round:",inputValue_round);
+        console.log("team1:",inputValue_team1);
+        console.log("team2:",inputValue_team2);
         
 
         var filteredData = dataList.filter((games) => {
@@ -119,7 +118,7 @@ predictButton.on("click",function() {
 var resetButton = d3.select("#reset");
 
 resetButton.on("click",function() {
-    console.log("Predict button clicked");
+    console.log("Reset button clicked");
     // Clear the previous data
     var table1 = document.getElementById("scores-body"); 
     table1.innerHTML="";
