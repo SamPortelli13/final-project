@@ -1,24 +1,31 @@
-var predictButton = d3.select("#predict");
 const url = "/data";
-console.log("Into Logic.js.....");
+d3.json(url).then(function(response) {  
+    console.log("data1:",response);
+});
+
+var predictButton = d3.select("#predict");
 
 predictButton.on("click",function() {
-    console.log("Predict.. button clicked");
-    const url = "/data";    
+    // Prevent the page from refreshing
+    d3.event.preventDefault();
+    console.log("Predict button clicked");
+    
+    const url = "/data";
+        
     d3.json(url).then(function(response) {  
-        console.log("data:",response);
+        console.log("data2:",response);
         var tableData = response;
-        let dataList = [];
-        for (let i=0; i<tableData.length; i++){
-            var dict = {};
-            for (let j=0; j<gameid.length; j++){
-                dict[tableData[i]] = tableData[i][j];
-            };
-            dataList.push(dict);
-        }
 
-        // Prevent the page from refreshing
-        //d3.event.preventDefault();
+        // let dataList = [];
+        // for (let i=0; i<tableData.length; i++){
+        //     var dict = {};
+        //     for (let j=0; j<gameid.length; j++){
+        //         dict[tableData[i]] = tableData[i][j];
+        //     };
+        //     dataList.push(dict);
+        // }
+
+        
 
         // Clear the table
         var table1 = document.getElementById("scores-body"); 
@@ -38,12 +45,12 @@ predictButton.on("click",function() {
         
         // Display the value property of each of the input elements
         console.log("year:",inputValue_year);
-        console.log("round:",inputValue_round);
-        console.log("team1:",inputValue_team1);
-        console.log("team2:",inputValue_team2);
+        console.log("city:",inputValue_round);
+        console.log("state:",inputValue_team1);
+        console.log("country:",inputValue_team2);
         
 
-        var filteredData = dataList.filter((games) => {
+        var filteredData = tableData.filter((games) => {
 
             // By default set the match to false
             var matchesYear = false;
@@ -68,7 +75,7 @@ predictButton.on("click",function() {
                 matchesRound = true;
             }
             // If user has entered a value to the team 1 field, check if it is included in the data
-            if (inputValue_team1 != '' && games.team1 == inputValue_team1) {
+            if (inputValue_team1 != '' && games.team == inputValue_team1) {
                 matchesTeam1 = true;
             }
             // If the user didn't enter anything in the team 1 field, set match to true by default
@@ -101,11 +108,11 @@ predictButton.on("click",function() {
         // table1.innerHTML="";
 
         var tbody =d3.select("tbody");
-        filteredData.forEach(function(games) {
-            console.log(games);
+        filteredData.forEach(function(game) {
+            console.log(game);
             var row = tbody.append("tr");
             
-            Object.entries(games).forEach(function([key,value]){
+            Object.entries(game).forEach(function([key,value]){
                 console.log(key,value);
                 var cell = tbody.append("td");
                 cell.text(value);
@@ -118,7 +125,7 @@ predictButton.on("click",function() {
 var resetButton = d3.select("#reset");
 
 resetButton.on("click",function() {
-    console.log("Reset button clicked");
+    console.log("reset button clicked");
     // Clear the previous data
     var table1 = document.getElementById("scores-body"); 
     table1.innerHTML="";

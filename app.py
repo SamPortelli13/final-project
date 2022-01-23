@@ -13,7 +13,7 @@ import pandas as pd
 
   
 # Database Setup
-connection_string = "postgres:Batman4!@localhost:5432/ufo_db"
+connection_string = "postgres:Batman4!@localhost:5432/afl_statistics_DB"
 engine = create_engine(f'postgresql://{connection_string}')
 
 # reflect an existing database into a new model
@@ -23,7 +23,7 @@ Base = automap_base()
 Base.prepare(engine, reflect=True)
 
 # Save reference to the table
-afl_table = Base.classes.all_countries_ufos
+afl_table = Base.classes.afl_team_performance
 
 # Flask Routes
 app = Flask(__name__)
@@ -51,7 +51,7 @@ def data():
     #print("my list:",jsonify(my_list))
     #return jsonify(my_list)
 
-    df = pd.read_json('./Resources/model_export.json')
+    df = pd.read_json('Resources/model_export.json')
     data = df.to_dict('records')
     return jsonify(data)
 
@@ -60,4 +60,4 @@ def data():
 
 
 if __name__ == "__main__":
-    app.run(debug=True )
+    app.run(debug=False )
