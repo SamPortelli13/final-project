@@ -13,7 +13,7 @@ import pandas as pd
 
   
 # Database Setup
-connection_string = "postgres:Golfer7!@localhost:5432/ufo_db"
+connection_string = "postgres:Batman4!@localhost:5432/ufo_db"
 engine = create_engine(f'postgresql://{connection_string}')
 
 # reflect an existing database into a new model
