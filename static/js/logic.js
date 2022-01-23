@@ -2,11 +2,13 @@ var predictButton = d3.select("#predict");
 const url = "/data";
 console.log("Into Logic.js.....");
 
+
+
 predictButton.on("click",function() {
     console.log("Predict.. button clicked");
     const url = "/data";    
     d3.json(url).then(function(response) {  
-        console.log("data:",response);
+        console.log("AFL data:",response);
         var tableData = response;
         let dataList = [];
         for (let i=0; i<tableData.length; i++){
