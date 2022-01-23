@@ -46,24 +46,23 @@ def model():
 
 @app.route("/data")
 def data():
-    query = engine.execute('SELECT row_to_json(t) FROM (SELECT gameid, team, model_prob_1, model_prob_2, model_odds_1, model_odds_2, actual_winning_team, model_winning_team, team2, date, year, round, venue, starttime, win_loss, home_away, team_score, rainfall, team_points, opposing_team_score, win_loss_margin, win_loss_margin_percent, disposals, kicks, marks, handballs, goals, behinds, hitouts, tackles, rebounds, inside50s, clearances, clangers, frees, frees_against, contested_possessions, uncontested_possessions, contested_marks, marks_inside50, one_percenters, bounces, goal_assists from model_export ) t LIMIT 10000').fetchall()
+#    query = engine.execute('SELECT row_to_json(t) FROM (SELECT year, round, team, model_prob_1, team2, model_prob_2, model_winning_team, actual_winning_team from model_export ) t LIMIT 10000').fetchall()
 #    query = engine.execute('SELECT row_to_json(usa_ufo) FROM usa_ufo LIMIT 100').fetchall()
-    my_list = []
+    
+#    my_list = []
 
-    for i in range(len(query)):
-        my_list.append(query[i][0])
-    #print("my list:",my_list)
-    return jsonify(my_list)
-
+#    for i in range(len(query)):
+#        my_list.append(query[i][0])
+#    print("my list:",my_list)
+#   return jsonify(my_list)
 
     df = pd.read_json('Resources/model_export.json')
-    data = df.to_dict('records')
+
+    # Reduce columns required
+    df2 = df[['year', 'round', 'team', 'model_prob_1', 'team2', 'model_prob_2', 'Model_winning_team', 'Actual_winning_team']]
+    data = df2.to_dict('records')
     return jsonify(data)
 
 
-
-
-
-
 if __name__ == "__main__":
-    app.run(debug=False )
+    app.run(debug=True )
