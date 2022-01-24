@@ -3001,6 +3001,10 @@ input, select, textarea {
 	}
 
 /* Table */
+	.table-head {		
+
+		border:rgba(113, 121, 129, 0.5) solid 1px;
+	}
 
 	.table-wrapper {
 		-webkit-overflow-scrolling: touch;
@@ -3054,21 +3058,22 @@ input, select, textarea {
 		}
 
 			table.alt tbody tr td {
-				border: solid 1px;
+				border:rgba(113, 121, 129, 0.5) solid 1px;
 				border-left-width: 0;
 				border-top-width: 0;
 			}
 
 				table.alt tbody tr td:first-child {
-					border-left-width: 1px;
+					border-left-width: 3px;
 				}
 
 			table.alt tbody tr:first-child td {
-				border-top-width: 1px;
+				border-top-width: 3px;
 			}
 
 			table.alt thead {
 				border-bottom: 0;
+				border:rgba(113, 121, 129, 0.5) solid 1px;
 			}
 
 			table.alt tfoot {
@@ -3780,7 +3785,7 @@ input, select, textarea {
 		}
 
 		#main > .post {
-			padding: 8rem 8rem 6rem 8rem ;
+			padding: 4rem 8rem 6rem 8rem ;
 		}
 
 			#main > .post header.major > .date {
