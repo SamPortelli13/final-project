@@ -1,1 +1,1 @@
-web: gunicorn final-challenge:app
+web: gunicorn final-challenge.app:app
