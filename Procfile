@@ -1,1 +1,1 @@
-web: gunicorn final-challenge.app:app
+web: gunicorn afl-game-prediction-model.app:app
