@@ -1,0 +1,1 @@
+FLASK_APP=afl-game-prediction-model/app.py flask run
