@@ -1,1 +1,1 @@
-web: gunicorn afl-game-prediction-model.app:app
+web: gunicorn app:app
