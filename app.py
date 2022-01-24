@@ -14,6 +14,12 @@ import pandas as pd
   
 # Database Setup
 
+
+# connection_string = "postgres:Golfer7!@localhost:5432/afl_statistics_DB"
+
+# engine = create_engine(f'postgresql://{connection_string}')
+
+
 # connection_string = "postgres:Batman4!@localhost:5432/afl_statistics_DB"
 
 # engine = create_engine(f'postgresql://{connection_string}')
@@ -27,6 +33,12 @@ import pandas as pd
 # # Save reference to the table
 
 # afl_table = Base.classes.model_export
+
+
+# Save reference to the table
+
+# afl_table = Base.classes.model_export
+
 
 
 # Flask Routes
@@ -65,4 +77,5 @@ def data():
 
 
 if __name__ == "__main__":
+
     app.run(debug=True)

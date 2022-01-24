@@ -5,6 +5,8 @@ d3.json(url).then(function(response) {
 
 var predictButton = d3.select("#predict");
 
+
+
 predictButton.on("click",function() {
     // Prevent the page from refreshing
     d3.event.preventDefault();
@@ -13,7 +15,9 @@ predictButton.on("click",function() {
     const url = "/data";
         
     d3.json(url).then(function(response) {  
+
         console.log("data2:",response);
+
         var tableData = response;
 
         // let dataList = [];
