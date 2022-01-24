@@ -14,19 +14,31 @@ import pandas as pd
   
 # Database Setup
 
-connection_string = "postgres:Golfer7!@localhost:5432/afl_statistics_DB"
 
-engine = create_engine(f'postgresql://{connection_string}')
+# connection_string = "postgres:Golfer7!@localhost:5432/afl_statistics_DB"
 
-# reflect an existing database into a new model
-Base = automap_base()
+# engine = create_engine(f'postgresql://{connection_string}')
 
-# reflect the tables
-Base.prepare(engine, reflect=True)
+
+# connection_string = "postgres:Batman4!@localhost:5432/afl_statistics_DB"
+
+# engine = create_engine(f'postgresql://{connection_string}')
+
+# # reflect an existing database into a new model
+# Base = automap_base()
+
+# # reflect the tables
+# Base.prepare(engine, reflect=True)
+
+# # Save reference to the table
+
+# afl_table = Base.classes.model_export
+
 
 # Save reference to the table
 
-afl_table = Base.classes.model_export
+# afl_table = Base.classes.model_export
+
 
 
 # Flask Routes
@@ -65,4 +77,5 @@ def data():
 
 
 if __name__ == "__main__":
-    app.run(debug=True )
+
+    app.run(debug=True)
