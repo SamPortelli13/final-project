@@ -13,17 +13,21 @@ import pandas as pd
 
   
 # Database Setup
-connection_string = "postgres:Batman4!@localhost:5432/afl_statistics_DB"
-engine = create_engine(f'postgresql://{connection_string}')
 
-# reflect an existing database into a new model
-Base = automap_base()
+# connection_string = "postgres:Batman4!@localhost:5432/afl_statistics_DB"
 
-# reflect the tables
-Base.prepare(engine, reflect=True)
+# engine = create_engine(f'postgresql://{connection_string}')
 
-# Save reference to the table
-afl_table = Base.classes.afl_team_performance
+# # reflect an existing database into a new model
+# Base = automap_base()
+
+# # reflect the tables
+# Base.prepare(engine, reflect=True)
+
+# # Save reference to the table
+
+# afl_table = Base.classes.model_export
+
 
 # Flask Routes
 app = Flask(__name__)
@@ -42,22 +46,23 @@ def model():
 
 @app.route("/data")
 def data():
-    #query = engine.execute('SELECT row_to_json(t) FROM (select country, city, city_latitude, city_longitude, date, duration, state, shape, summary, time from all_countries_ufos) t LIMIT 10000').fetchall()
+#    query = engine.execute('SELECT row_to_json(t) FROM (SELECT year, round, team, model_prob_1, team2, model_prob_2, model_winning_team, actual_winning_team from model_export ) t LIMIT 10000').fetchall()
 #    query = engine.execute('SELECT row_to_json(usa_ufo) FROM usa_ufo LIMIT 100').fetchall()
-    #my_list = []
+    
+#    my_list = []
 
-    #for i in range(len(query)):
-    #    my_list.append(query[i][0])
-    #print("my list:",jsonify(my_list))
-    #return jsonify(my_list)
+#    for i in range(len(query)):
+#        my_list.append(query[i][0])
+#    print("my list:",my_list)
+#   return jsonify(my_list)
 
     df = pd.read_json('Resources/model_export.json')
-    data = df.to_dict('records')
+
+    # Reduce columns required
+    df2 = df[['year', 'round', 'team', 'model_prob_1', 'team2', 'model_prob_2', 'Model_winning_team', 'Actual_winning_team']]
+    data = df2.to_dict('records')
     return jsonify(data)
 
 
-
-
-
 if __name__ == "__main__":
-    app.run(debug=False )
+    app.run(debug=True)

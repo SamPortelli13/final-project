@@ -23,40 +23,33 @@ predictButton.on("click",function() {
         //         dict[tableData[i]] = tableData[i][j];
         //     };
         //     dataList.push(dict);
-        // }
+        // }     
 
-        
-
-        // Clear the table
+        // Clear the table before populating with new data
         var table1 = document.getElementById("scores-body"); 
-        //table1.innerHTML ='';  
+        table1.innerHTML ='';
 
         // Select the input element and get the raw HTML node
         var inputElement_year = d3.select("#years");
         var inputElement_round = d3.select("#rounds");
-        var inputElement_team1 = d3.select("#team1");
-        var inputElement_team2 = d3.select("#team2");
+        var inputElement_team = d3.select("#team");
         
         // Get the value property of each of the input elements
         var inputValue_year = inputElement_year.property("value");
         var inputValue_round = inputElement_round.property("value");
-        var inputValue_team1 = inputElement_team1.property("value");
-        var inputValue_team2 = inputElement_team2.property("value");
+        var inputValue_team = inputElement_team.property("value");
         
         // Display the value property of each of the input elements
         console.log("year:",inputValue_year);
         console.log("city:",inputValue_round);
-        console.log("state:",inputValue_team1);
-        console.log("country:",inputValue_team2);
+        console.log("Team:",inputValue_team);
         
-
         var filteredData = tableData.filter((games) => {
 
             // By default set the match to false
             var matchesYear = false;
             var matchesRound = false;
-            var matchesTeam1 = false;
-            var matchesTeam2 = false;
+            var matchesTeam = false;
 
             // If user has entered a value to the year field, check if it is included in the data
             if (inputValue_year != '' && games.year == inputValue_year) {
@@ -75,24 +68,17 @@ predictButton.on("click",function() {
                 matchesRound = true;
             }
             // If user has entered a value to the team 1 field, check if it is included in the data
-            if (inputValue_team1 != '' && games.team == inputValue_team1) {
-                matchesTeam1 = true;
+            if (inputValue_team != '' && (games.team == inputValue_team || games.team2 == inputValue_team)) {
+                matchesTeam = true;
             }
             // If the user didn't enter anything in the team 1 field, set match to true by default
-            if (inputValue_team1 == '') {
-                matchesTeam1 = true;
-            }
-            // If user has entered a value to the team 2 field, check if it is included in the data
-            if (inputValue_team2 != '' && games.team2 == inputValue_team2) {
-                matchesTeam2 = true;
-            }
-            // If the user didn't enter anything in the team 2 field, set match to true by default
-            if (inputValue_team2 == '') {
-                matchesTeam2 = true;
-            }
+            if (inputValue_team == '') {
+                matchesTeam = true;
+            };
+            
             
             // Will return true if all fields match
-            return matchesYear && matchesRound && matchesTeam1 && matchesTeam2;
+            return matchesYear && matchesRound && matchesTeam;
 
         });
 
@@ -111,12 +97,31 @@ predictButton.on("click",function() {
         filteredData.forEach(function(game) {
             console.log(game);
             var row = tbody.append("tr");
+            var yCell = row.append("td");
+            yCell.text(game['year']);
+            var rCell = row.append("td");
+            rCell.text(game['round']);
+            var t1Cell = row.append("td");
+            t1Cell.text(game['team']);
+            var t1pCell = row.append("td");
+            t1pCell.text(Math.round(game['model_prob_1']*100)/100);
+            var t2Cell = row.append("td");
+            t2Cell.text(game['team2']);
+            var t2pCell = row.append("td");
+            t2pCell.text(Math.round(game['model_prob_2']*100)/100);
+            var pwCell = row.append("td");
+            // pwCell.className += " mw"
+            // console.log(pwCell);
+            // document.getElementsByClassName("mw").style.color = "red";
+            pwCell.text(game['Model_winning_team']);
+            var awCell = row.append("td");
+            awCell.text(game['Actual_winning_team']);
             
-            Object.entries(game).forEach(function([key,value]){
-                console.log(key,value);
-                var cell = tbody.append("td");
-                cell.text(value);
-            });
+            // Object.entries(game).forEach(function([key,value]){
+            //     console.log(key,value);
+            //     var cell = tbody.append("td");
+            //     cell.text(value);
+            // });
         });
        
     });

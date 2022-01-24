@@ -47,7 +47,7 @@
 							<section class="post">
 								<form>
 									<div class="row gtr-uniform">
-										<div class="col-3 col-12-xsmall">
+										<div class="col-4 col-12-xsmall">
 											<select name="years" id="years" form="years" type="text">
 												<option value="">- Year -</option>
 												<option value="2012">2012</option>
@@ -60,9 +60,10 @@
 												<option value="2019">2019</option>
 												<option value="2020">2020</option>
 												<option value="2021">2021</option>
+												<option value="2022">2022</option>
 											</select>
 										</div>
-										<div class="col-3 col-12-xsmall">
+										<div class="col-4 col-12-xsmall">
 											<select name="rounds" id="rounds" form="rounds" type="text">
 												<option value="">- Round -</option>
 												<option value="R1">R1</option>	
@@ -95,9 +96,9 @@
 												<option value="GF">GF</option>	
 											</select>
 										</div>
-										<div class="col-3 col-12-xsmall">
-											<select name="team1" id="team1" form="team1" type="text">
-												<option value="">- Team 1 -</option>
+										<div class="col-4 col-12-xsmall">
+											<select name="team" id="team" form="team" type="text">
+												<option value="">- Team -</option>
 												<option value="Adelaide">Adelaide</option>
 												<option value="Brisbane Lions">Brisbane Lions</option>
 												<option value="Carlton">Carlton</option>
@@ -118,29 +119,7 @@
 												<option value="Western Bulldogs">Western Bulldogs</option>
 											</select>
 										</div>
-										<div class="col-3 col-12-xsmall">
-											<select name="team2" id="team2" form="team2" type="text">
-												<option value="">- Team 2 -</option>
-												<option value="Adelaide">Adelaide</option>
-												<option value="Brisbane Lions">Brisbane Lions</option>
-												<option value="Carlton">Carlton</option>
-												<option value="Collingwood">Collingwood</option>
-												<option value="Essendon">Essendon</option>
-												<option value="Fremantle">Fremantle</option>
-												<option value="Geelong">Geelong</option>
-												<option value="Gold Coast">Gold Coast</option>
-												<option value="Greater Western Sydney">Greater Western Sydney</option>
-												<option value="Hawthorn">Hawthorn</option>
-												<option value="Melbourne">Melbourne</option>
-												<option value="North Melbourne">North Melbourne</option>
-												<option value="Port Adelaide">Port Adelaide</option>
-												<option value="Richmond">Richmond</option>
-												<option value="St Kilda">St Kilda</option>
-												<option value="Sydney">Sydney</option>
-												<option value="West Coast">West Coast</option>
-												<option value="Western Bulldogs">Western Bulldogs</option>
-											</select>
-										</div>
+										
 										<!-- Break -->
 										<div class="col-4 col-12-xsmall"></div>
 										<div class="col-4 col-12-xsmall">
@@ -160,18 +139,18 @@
 										  <tr>
 											<th class="table-head">Year</th>
 											<th class="table-head">Round</th>
-											<th class="table-head">Team1</th>
-											<th class="table-head">(ML) Prob. Team1</th>
-											<th class="table-head">Team2</th>
-											<th class="table-head">(ML) Prob. Team2</th>
-											<th class="table-head">(ML) Winning Team</th>
+											<th class="table-head">Home Team</th>
+											<th class="table-head">Home Team Prob(%)</th>
+											<th class="table-head">Away Team</th>
+											<th class="table-head">Away Team Prob(%)</th>
+											<th class="table-head">Predicted Winning Team</th>
 											<th class="table-head">Actual Winning Team</th>
 										  </tr>
 										</thead>
 										<tbody id="scores-body"></tbody>
 									  </table>
 									</div>
-								  	<hr />
+								  	
 									
 
 				<!-- Copyright -->
