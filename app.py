@@ -48,6 +48,10 @@ app = Flask(__name__)
 def welcome():
     return render_template("index.html")
 
+@app.route("/about-us")
+def about():
+    return render_template("about-us.html")
+
 @app.route("/charts")
 def compare():
     return render_template("charts.html")

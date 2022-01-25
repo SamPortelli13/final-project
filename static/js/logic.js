@@ -131,11 +131,17 @@ predictButton.on("click",function() {
     });
 });
 
-var resetButton = d3.select("#reset");
+// var resetButton = d3.select("#reset");
 
-resetButton.on("click",function() {
-    console.log("reset button clicked");
-    // Clear the previous data
-    var table1 = document.getElementById("scores-body"); 
-    table1.innerHTML="";
-});
+// resetButton.on("click",function() {
+//     console.log("reset button clicked");
+//     // Clear the previous data
+//     var table1 = document.getElementById("scores-body"); 
+//     table1.innerHTML="";
+//     var years = document.getElementById("years");
+//     years.innerHTML="";
+//     var rounds = document.getElementById("rounds");
+//     rounds.innerHTML="";
+//     var team = document.getElementById("team");
+//     team.innerHTML="";
+// });
